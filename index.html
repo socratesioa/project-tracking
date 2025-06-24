@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Project tracking intro component</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="header-container">
+          <a href="/"
+            ><img
+              src="./images/logo.svg"
+              class="logo"
+              alt="Project Tracking Home"
+          /></a>
+          <nav id="navigation-menu" class="primary-menu" role="navigation">
+            <ul>
+              <li><a href="#" class="nav-link">Product</a></li>
+              <li><a href="#" class="nav-link">Features</a></li>
+              <li><a href="#" class="nav-link">Pricing</a></li>
+            </ul>
+            <div class="separator"></div>
+            <ul>
+              <li><a href="#" class="login-link">Login</a></li>
+            </ul>
+          </nav>
+          <button
+            class="mobile-menu-toggle"
+            role="menu-toggle"
+            aria-expanded="false"
+          >
+            <svg
+              class="icon-hamburger"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="16"
+            >
+              <g fill="#242942" fill-rule="evenodd">
+                <path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z" />
+              </g>
+            </svg>
+            <svg
+              class="icon-close"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+            >
+              <path
+                fill="#242942"
+                fill-rule="evenodd"
+                d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z"
+              />
+            </svg>
+          </button>
+        </div>
+      </header>
+      <main>
+        <section id="text">
+          <div class="subheading">
+            <div class="new">New</div>
+            <p class="subheading-text">Monograph Dashboard</p>
+          </div>
+          <h1>Powerful insights <span>into your team</span></h1>
+          <p>Project planning and time tracking <span>for agile teams</span></p>
+          <div class="button-container">
+            <a href="#" class="primary-btn">Schedule a demo</a>
+            <p class="preview">to see a preview</p>
+          </div>
+        </section>
+        <div class="illustrations">
+          <img
+            src="./images/illustration-devices.svg"
+            alt="Devices illustrations"
+            class="device-illustrations"
+          />
+        </div>
+      </main>
+      <div class="background"></div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
